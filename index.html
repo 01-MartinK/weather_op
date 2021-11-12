@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Current Weather</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="main_container">
+    <div class="weatherBox">
+      <div id="weather">
+        <div id="img">
+          <h1 id="temp"></h1>
+        </div>
+        <div id="location"></div>
+        <div id="description"></div>
+      </div>
+    </div>
+    <div class="extra">
+      <div class="extra-item">
+        UV index
+        pole
+        <p id="UV"></p>
+        <img src="https://cdn-icons-png.flaticon.com/512/2025/2025350.png">
+      </div>
+      <div class="extra-item">
+        Rõhk
+        <p id="pressure"></p>
+        <img src="https://cdn4.iconfinder.com/data/icons/weather-287/32/92-_pressure-_air-_wind-_weather-512.png">
+      </div>
+      <div class="extra-item">
+        Niiskus
+        <p class="humititi"></p>
+        <img src="https://cdn-icons-png.flaticon.com/512/219/219816.png">
+      </div>
+      <div class="extra-item">
+        TuuleKiirus
+        <p class="wind_speed"></p>
+        TuuleSuund
+        <p class="wind_angle"></p>
+      </div>
+    </div>
+</div>
+    <form>
+        <label>Change city</label>
+        <input id="weatherText" type="text" placeholder="Tallinn">
+        <input id="weatherSubmit" type="button" value="Get Weather">
+    </form>
+  
+    <script lang="text/javascript" src="classes/LS.js"></script>
+    <script lang="text/javascript" src="classes/UI.js"></script>
+  <script lang="text/javascript" src="classes/weather.js"></script>
+  <script lang="text/javascript" src="app.js"></script>
+</body>
+</html>

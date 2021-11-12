@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;  
+    background: cornflowerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .main_container{
+    display: flex;
+    margin: 4em auto;
+    justify-content: center;
+  } 
+
+  .weatherBox {
+    float: left;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px black;
+    text-align: center;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    font-size: 150%;
+    width: 12em;
+  }
+
+  h1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2em;
+  }
+
+  #img {
+    background: url('https://image.flaticon.com/icons/png/512/979/979585.png') center no-repeat;
+    background-size: 10em;
+  }
+
+  #location {
+    border-top: 3px solid cornflowerblue;
+    background: gainsboro;
+    padding: 0.5rem;
+    font-size: 200%;
+  }
+
+  #description {
+    border-top: 3px solid cornflowerblue;
+    background: gainsboro;
+    padding: 0.5rem;
+  }
+
+  form{
+      background: gainsboro;
+      margin: auto auto;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 2px 4px 4px black;
+      width: 14em;
+  } 
+
+  #weatherSubmit{
+    margin-left: 4em;
+    text-align: center;
+
+    width: 8em;
+  } 
+
+  .extra-item{
+    margin: 1em;
+    padding: 0.5em;
+    width: 6em;
+    border-radius: 8px;
+    background-color: white;
+
+  } 
+
+  img{
+    width: 64px;
+    height: 64px;
+  } 
